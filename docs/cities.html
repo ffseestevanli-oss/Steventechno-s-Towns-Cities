@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Streets & Cities | Steventechno's Towns & Cities!</title>
+  <meta name="description" content="Roads, sidewalks, driveways, parking lots, street furniture, nightclubs and skyscrapers with elevators in Steventechno's Towns & Cities.">
+  <meta property="og:image" content="img/brand/towns_cities_banner.png">
+  <link rel="icon" href="img/brand/favicon-64.png">
+  <link rel="stylesheet" href="css/site.css">
+  <script src="js/site.js" defer></script>
+</head>
+<body>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img src="img/brand/favicon-64.png" alt="">Towns &amp; Cities!</a>
+      <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="build.html">Build</a>
+        <a href="furnish.html">Furnish</a>
+        <a href="cities.html" aria-current="page">Streets &amp; Cities</a>
+        <a href="together.html">Play together</a>
+        <a href="manual.html">Manual</a>
+        <a href="start.html">Get started</a>
+      </nav>
+    </div>
+  </header>
+  <div class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow">Roads tab &middot; Cities tab</span>
+      <h1>Streets and cities</h1>
+      <p>Lay roads that join themselves into corners and crossroads, run sidewalks and driveways up to every house, line the streets with lamps and hydrants, then drop in a nightclub or a 16-storey skyscraper.</p>
+    </div>
+  </div>
+  <nav class="subnav"><div class="wrap">
+    <a href="#roads">Roads</a>
+    <a href="#styles">Road styles</a>
+    <a href="#sidewalks">Sidewalks</a>
+    <a href="#driveways">Driveways</a>
+    <a href="#country">Country roads</a>
+    <a href="#street">Street furniture</a>
+    <a href="#parking">Parking lots</a>
+    <a href="#skyscrapers">Skyscrapers</a>
+    <a href="#clubs">Clubs</a>
+  </div></nav>
+
+  <section>
+    <div class="wrap">
+
+      <div class="feature" id="roads">
+        <div class="text">
+          <span class="eyebrow">Roads tab</span>
+          <h2>Roads that join themselves</h2>
+          <p>Drag to lay a straight road, up to 32 tiles at a time. Drag across or into another road and you get a corner, a T junction or a crossroads. Open ends finish in a rounded dead end with sidewalk all the way round.</p>
+          <ul>
+            <li>Two wide lanes, a curb, sidewalk, grass strip and concrete edge on both sides, modelled on Steventechno's Buildings Pack 2.0 roads and widened so cars have room.</li>
+            <li>Rounded curbs on every inside corner.</li>
+            <li>Lots line up flush with the sidewalk.</li>
+            <li><b>Built for driving:</b> no seams to snag a wheel, curbs that ramp up in the collision, and slabs thick enough that fast cars don't fall through. Every piece is frozen solid like a physgunned prop, so simfphys, LVS and Glide cars drive on them.</li>
+            <li>The preview turns orange where a tile would land on a lot, and those tiles are skipped.</li>
+          </ul>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="cities-roads" data-what="Aerial view of a small road network: a crossroads, a T junction, a bend and a dead end."><figcaption>Corners, junctions and dead ends form on their own.</figcaption></figure>
+          <figure class="shot" data-shot="cities-roads-drag" data-what="Mid-drag on a new road crossing an existing one, preview showing the crossroads it will make."><figcaption>The preview shows the joined result as you drag.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature flip" id="styles">
+        <div class="text">
+          <span class="eyebrow">Pick before you drag</span>
+          <h2>Seven road styles, five sidewalk styles</h2>
+          <p>Pick a style first, or drag over an existing road with a new one to restyle it. The <b>Paint</b> brush paints any road surface, sidewalk, curb or grass strip with any road, floor or wall texture, one tile at a time or the whole connected stretch.</p>
+          <div class="table-scroll"><table class="spec">
+            <tr><th>Road style</th><th>Markings</th></tr>
+            <tr><td>Buildings Pack (default)</td><td>Double yellow</td></tr>
+            <tr><td>Classic Asphalt</td><td>Yellow dashed centre line</td></tr>
+            <tr><td>Main Road</td><td>Double yellow</td></tr>
+            <tr><td>City Street</td><td>White dashed</td></tr>
+            <tr><td>Concrete Road</td><td>White dashed</td></tr>
+            <tr><td>Country Lane</td><td>None</td></tr>
+            <tr><td>Dirt Road</td><td>None</td></tr>
+          </table></div>
+          <ul class="chips"><li>Buildings Pack sidewalk</li><li>Concrete Slabs</li><li>Smooth Concrete</li><li>Cobblestone</li><li>Small Tiles</li></ul>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="cities-road-styles" data-what="All seven road styles laid side by side (parallel straights), labelled if possible."><figcaption>All seven road styles.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature" id="sidewalks">
+        <div class="text">
+          <span class="eyebrow">Flooring tab &rarr; Sidewalks</span>
+          <h2>Drawn sidewalks and front walks</h2>
+          <p>Draw sidewalk anywhere on the grid: a front walk from the road to the door, a wide path to the garage, a plaza. Drawn sidewalks snap to the height of the road sidewalk they touch so they meet it flush, and they can cross the grass strip to join it. Pick a texture to lay them with, drag over them to retexture, or Shift-click to fill a whole connected walk.</p>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="cities-sidewalks" data-what="A house with a drawn front walk running from the road sidewalk across the grass strip to its porch steps."><figcaption>A front walk meeting the road sidewalk flush.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature flip" id="driveways">
+        <div class="text">
+          <span class="eyebrow">Roads tab &rarr; Driveway</span>
+          <h2>Driveways</h2>
+          <p>Drag along the sidewalk in front of a lot to set how wide the driveway is. The curb, sidewalk and grass are cut out and a concrete ramp runs from the lot down to the road on a smooth curve, with rounded sides easing into the sidewalk. Raise the lot's foundation and the ramp follows.</p>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="cities-driveway" data-what="A driveway ramp from a raised lot down to the road, car parked on it, garage door behind."><figcaption>The ramp follows the lot's foundation height.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature" id="country">
+        <div class="text">
+          <span class="eyebrow">Roads tab &rarr; Roads (no sidewalk)</span>
+          <h2>Country roads</h2>
+          <p>Roads without sidewalks are just the road surface, with lots allowed right up to the edge. Where one meets a road with sidewalks, the sidewalk curves smoothly down to nothing so the two meet at the same width. Pair them with the <b>Dirt Road</b> or <b>Country Lane</b> style for back roads and farm tracks.</p>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="cities-country" data-what="A dirt road without sidewalks meeting a town road, showing the S-curve where the sidewalk ends."><figcaption>A dirt road meets the town road.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature flip" id="street">
+        <div class="text">
+          <span class="eyebrow">Furnish &rarr; Outdoor</span>
+          <h2>Street furniture on any sidewalk</h2>
+          <p>Streetlamps, lantern streetlamps, fire hydrants, litter and wheelie bins, mailboxes, park benches, planters, bollards, traffic cones, traffic barrels and parking signs go straight onto road sidewalks and drawn sidewalks, no lot needed. They save with the map like roads and fences.</p>
+          <ul>
+            <li><b>Streetlamps</b> start off. <kbd>E</kbd> turns them on: they warm up, the glass glows and they light the street around them. Admins can switch every streetlamp on at once.</li>
+            <li>Sit on a <b>park bench</b> with <kbd>E</kbd>.</li>
+            <li>Only whoever placed a piece, or an admin, can move or remove it.</li>
+          </ul>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="cities-street" data-what="A sidewalk at dusk lined with lit streetlamps, a hydrant, bins and a bench."><figcaption>Streetlamps light the sidewalk at night.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature" id="parking">
+        <div class="text">
+          <span class="eyebrow">Furnish &rarr; Outdoor</span>
+          <h2>Parking lots</h2>
+          <p>Put <b>Parking spaces</b> side by side and their lines overlap into one painted row. Turn the next row round and put it back to back. Add <b>wheel stops</b>, <b>speed bumps</b>, <b>parking lines</b> for angled bays, a <b>parking sign</b> and an <b>EV charger</b>.</p>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="cities-parking" data-what="A parking lot with two back-to-back rows of spaces, wheel stops, a speed bump and an EV charger, a few cars parked."><figcaption>Back-to-back parking rows with wheel stops.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature flip" id="skyscrapers">
+        <div class="text">
+          <span class="eyebrow">Cities tab &rarr; Buildings and Skyscrapers</span>
+          <h2>Office buildings and skyscrapers</h2>
+          <p>Six ready-made buildings. Click one, turn it so the yellow arrow points at the street, and click again. Each one makes its own lot with a concrete plaza, a lobby with a reception desk, chairs, planters and lights, an elevator core that stops at every floor, drop ceilings with light panels and a flat roof. Upper floors are left empty for you to fill.</p>
+          <div class="table-scroll"><table class="spec">
+            <tr><th>Building</th><th>Floors</th><th>Look</th></tr>
+            <tr><td>Glass Office</td><td>6</td><td>Glass walls on every floor, oak lobby, brick core</td></tr>
+            <tr><td>Brick Office</td><td>5</td><td>Glass lobby, brick with windows above</td></tr>
+            <tr><td>Dark Office</td><td>8</td><td>Dark glass, charcoal walls inside, walnut lobby</td></tr>
+            <tr><td>Blue Glass Tower</td><td>12</td><td>Blue glass, two elevators</td></tr>
+            <tr><td>Night Tower</td><td>10</td><td>Lit offices behind every window</td></tr>
+            <tr><td>Skyscraper</td><td>16</td><td>Bronze glass, two elevators</td></tr>
+          </table></div>
+          <div class="catalogue">
+            <figure><img src="img/icons/prefab_glass_office.png" alt=""><figcaption>Glass Office</figcaption></figure>
+            <figure><img src="img/icons/prefab_brick_office.png" alt=""><figcaption>Brick Office</figcaption></figure>
+            <figure><img src="img/icons/prefab_dark_office.png" alt=""><figcaption>Dark Office</figcaption></figure>
+            <figure><img src="img/icons/prefab_blue_tower.png" alt=""><figcaption>Blue Glass Tower</figcaption></figure>
+            <figure><img src="img/icons/prefab_lit_tower.png" alt=""><figcaption>Night Tower</figcaption></figure>
+            <figure><img src="img/icons/prefab_skyscraper.png" alt=""><figcaption>Skyscraper</figcaption></figure>
+          </div>
+          <h3>Build your own towers</h3>
+          <p>The Walls paint picker has <b>office-window facades</b> (Blue, Dark, Bronze and Green glass, Lights On, Concrete and Brick with windows) that line up floor to floor, so a tall building needs no real windows. <b>Reflective Glass</b> in five tints mirrors the sky. Add <b>Drop Ceilings</b>, <b>Brushed Steel</b> and the full-height <b>Glass wall</b>, then raise Max floors to 16.</p>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="cities-skyline" data-what="A downtown skyline: several prefab towers along a city street, ideally at dusk with the Night Tower lit."><figcaption>A downtown skyline.</figcaption></figure>
+          <figure class="shot" data-shot="cities-lobby" data-what="Inside a prefab lobby: reception desk, office chairs, planters, elevator doors behind."><figcaption>Every building comes with a furnished lobby.</figcaption></figure>
+          <figure class="shot" data-shot="cities-reflective" data-what="Close-up of a Reflective Glass wall reflecting the sky."><figcaption>Reflective glass mirrors the sky.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature" id="clubs">
+        <div class="text">
+          <span class="eyebrow">Cities tab &rarr; Clubs</span>
+          <h2>Nightclubs</h2>
+          <p>Everything for a night out, placed with the same hand as furniture.</p>
+          <ul>
+            <li><b>Light-up dance floor</b> tiles with nine patterns: Rainbow wave, Disco squares, Pink and blue beat, Ripples, Sparkle, Colour fade, Fire, Ice and Checkerboard flash. Put tiles side by side and the patterns flow across them as one floor, all on the same 124 BPM beat.</li>
+            <li><b>Bar counters</b>, a <b>bar corner</b> and a lit <b>back bar</b> with glowing light strips. <b>Bar stools</b> snap three to a counter, facing it.</li>
+            <li>A <b>light tower</b> whose four moving heads sweep coloured light round the room, and a <b>disco ball</b> that turns and sparkles.</li>
+            <li>A <b>DJ booth</b>, <b>VIP sofa</b>, <b>high table</b>, <b>PA speaker</b> and <b>velvet rope</b>.</li>
+            <li><kbd>E</kbd> switches lights on and off and sits you on stools and the VIP sofa.</li>
+          </ul>
+          <div class="catalogue">
+            <figure><img src="img/icons/club_dance_floor.png" alt=""><figcaption>Dance floor</figcaption></figure>
+            <figure><img src="img/icons/club_dj_booth.png" alt=""><figcaption>DJ booth</figcaption></figure>
+            <figure><img src="img/icons/club_bar_counter.png" alt=""><figcaption>Bar counter</figcaption></figure>
+            <figure><img src="img/icons/club_bar_corner.png" alt=""><figcaption>Bar corner</figcaption></figure>
+            <figure><img src="img/icons/club_back_bar.png" alt=""><figcaption>Back bar</figcaption></figure>
+            <figure><img src="img/icons/club_bar_stool.png" alt=""><figcaption>Bar stool</figcaption></figure>
+            <figure><img src="img/icons/club_high_table.png" alt=""><figcaption>High table</figcaption></figure>
+            <figure><img src="img/icons/club_vip_sofa.png" alt=""><figcaption>VIP sofa</figcaption></figure>
+            <figure><img src="img/icons/club_speaker.png" alt=""><figcaption>PA speaker</figcaption></figure>
+            <figure><img src="img/icons/club_light_tower.png" alt=""><figcaption>Light tower</figcaption></figure>
+            <figure><img src="img/icons/club_disco_ball.png" alt=""><figcaption>Disco ball</figcaption></figure>
+            <figure><img src="img/icons/club_velvet_rope.png" alt=""><figcaption>Velvet rope</figcaption></figure>
+          </div>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="cities-club" data-what="A dark club interior: big dance floor running Rainbow wave, light towers sweeping, disco ball, DJ booth."><figcaption>The dance floor flows across every tile.</figcaption></figure>
+          <figure class="shot" data-shot="cities-bar" data-what="The bar: counters with lit strips, back bar shelves glowing, stools lined up."><figcaption>Lit bar counters and back bar.</figcaption></figure>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <div>
+        <div class="brandline">Steventechno's Towns &amp; Cities! <em>The Ultimate FlatMap Transformation Project!</em></div>
+        <div>A Sims-style building tool for Garry's Mod by Steventechno.</div>
+      </div>
+      <div>
+        <a href="build.html">Build</a> &middot; <a href="furnish.html">Furnish</a> &middot; <a href="cities.html">Streets &amp; Cities</a> &middot; <a href="together.html">Play together</a> &middot; <a href="start.html">Get started</a> &middot; <a href="manual.html">Manual</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
