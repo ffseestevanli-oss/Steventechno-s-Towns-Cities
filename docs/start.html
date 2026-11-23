@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get started | Steventechno's Towns & Cities!</title>
+  <meta name="description" content="Install Steventechno's Towns & Cities, the Workshop packs it works with, every control and the admin commands.">
+  <meta property="og:image" content="img/brand/towns_cities_banner.png">
+  <link rel="icon" href="img/brand/favicon-64.png">
+  <link rel="stylesheet" href="css/site.css">
+  <script src="js/site.js" defer></script>
+</head>
+<body>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img src="img/brand/favicon-64.png" alt="">Towns &amp; Cities!</a>
+      <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="build.html">Build</a>
+        <a href="furnish.html">Furnish</a>
+        <a href="cities.html">Streets &amp; Cities</a>
+        <a href="together.html">Play together</a>
+        <a href="manual.html">Manual</a>
+        <a href="start.html" aria-current="page">Get started</a>
+      </nav>
+    </div>
+  </header>
+  <div class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow">Get started</span>
+      <h1>Start building in a minute</h1>
+      <p>Subscribe, load any map and press <kbd>F3</kbd>. Everything below is optional reading for when you want to go further.</p>
+    </div>
+  </div>
+  <nav class="subnav"><div class="wrap">
+    <a href="#install">Install</a>
+    <a href="#packs">Packs it works with</a>
+    <a href="#first">Your first house</a>
+    <a href="#controls">Controls</a>
+    <a href="#admin">Admin and servers</a>
+  </div></nav>
+
+  <section>
+    <div class="wrap">
+
+      <div class="feature" id="install">
+        <div class="text">
+          <span class="eyebrow">Step 1</span>
+          <h2>Install</h2>
+          <ol>
+            <li><a href="#WORKSHOP-LINK">Subscribe on the Steam Workshop</a>. (Or copy the <code>st_homeconstruct</code> folder into <code>garrysmod/addons/</code>.)</li>
+            <li>Start any map. Flat maps like gm_flatgrass or gm_construct are the perfect canvas.</li>
+            <li>Find it in the spawn menu under <b>Tools &rarr; Construction &rarr; Steventechno's Towns &amp; Cities</b>.</li>
+            <li>Press <kbd>F3</kbd> for Build mode or <kbd>F2</kbd> for Furnish mode. Press the other key to switch, and <kbd>F1</kbd> to leave.</li>
+          </ol>
+          <div class="btns"><a class="btn dark" href="#WORKSHOP-LINK">Subscribe on the Workshop</a></div>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="start-spawnmenu" data-what="The spawn menu Tools tab with Construction &rarr; Steventechno's Towns &amp; Cities selected."><figcaption>Find the tool in the spawn menu.</figcaption></figure>
+        </div>
+      </div>
+
+      <div id="packs" style="scroll-margin-top:130px">
+        <div class="section-head">
+          <span class="eyebrow">Step 2 (optional)</span>
+          <h2>Steventechno's packs it works with</h2>
+          <p>Towns &amp; Cities works on its own: it ships with its own walls, doors, roofs, roads, textures and more than a hundred built-in furniture pieces. Subscribe to Steventechno's packs as well and even more appears. Furnish and the paint picker only show what you have installed.</p>
+        </div>
+        <div class="table-scroll"><table class="spec">
+          <tr><th>Pack</th><th>What it adds</th></tr>
+          <tr><td><b>Steventechno's Furniture Pack Extended</b><br><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=455282752">Workshop 455282752</a></td><td>Every model appears in Furnish under the Steventechno's Furniture tab, with swatch cards for its styles. Posters and paintings go under Wall.</td></tr>
+          <tr><td><b>Steventechno's Furniture Pack Classic</b><br><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=106229933">Workshop 106229933</a></td><td>The classic furniture, in the same tab.</td></tr>
+          <tr><td><b>Steventechno's Electronics Pack</b><br><a href="#ELECTRONICS-PACK-LINK">Workshop link</a></td><td>Its own Furnish tab: TVs, computers, consoles and speakers with readable names. Wall TVs and speakers hang on walls.</td></tr>
+          <tr><td><b>Steventechno's House Pack 3</b><br><a href="#HOUSE-PACK-LINK">Workshop link</a></td><td>Paints, trims, brick, siding, floors and kitchen textures in the paint picker, the wood for the original doors, and the Classic Steventechno lights.</td></tr>
+          <tr><td><b>Steventechno's Buildings Pack 2.0</b><br><a href="#BUILDINGS-PACK-LINK">Workshop link</a></td><td>Exterior brick, concrete, marble, ceiling tiles and shop textures in the paint picker, plus the Buildings Pack road and sidewalk styles.</td></tr>
+        </table></div>
+        <p class="note"><b>Running a server?</b> The server needs the packs too. Add them with <code>resource.AddWorkshop</code> (for example <code>resource.AddWorkshop( "455282752" )</code> and <code>resource.AddWorkshop( "106229933" )</code>) so players download them when they join. After enabling a pack mid-game, run <code>sthc_furnish_rescan</code>.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="alt" id="first">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Step 3</span>
+        <h2>Your first house in eight steps</h2>
+      </div>
+      <ol class="steps">
+        <li><b>Flooring &rarr; Lots</b>Drag a lot on open ground. 12x10 is a good first house.</li>
+        <li><b>Flooring &rarr; Foundation</b>Optional: pick a height and drag it over the lot.</li>
+        <li><b>Walls</b>Hold <kbd>Shift</kbd> and drag to outline the house, then drag inner walls for rooms.</li>
+        <li><b>Doors</b>Pick a front door and click an outside wall. Add inner doors.</li>
+        <li><b>Windows</b>Click windows onto the walls, dragging up or down for the height.</li>
+        <li><b>Roofs</b>Pick Gable, a pitch and shingles, then drag over the whole house.</li>
+        <li><b>Paint</b>Paint the outside, then use Room fill on each room's walls and floor.</li>
+        <li><b>Furnish</b>Press <kbd>F2</kbd>, pick a sofa, press where it goes and drag to turn it.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="controls">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Reference</span>
+        <h2>Controls</h2>
+      </div>
+      <div class="grid c2">
+        <div>
+          <h3>Getting around</h3>
+          <div class="table-scroll"><table class="spec">
+            <tr><th>Key</th><th>Does</th></tr>
+            <tr><td><kbd>F3</kbd> / <kbd>F2</kbd> / <kbd>F1</kbd></td><td>Open Build / open Furnish / leave</td></tr>
+            <tr><td><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> or screen edges</td><td>Slide the camera</td></tr>
+            <tr><td>Middle-drag / right-drag / wheel</td><td>Orbit / pan / zoom</td></tr>
+            <tr><td><kbd>Q</kbd> / <kbd>E</kbd></td><td>Rotate the camera 45&deg;</td></tr>
+            <tr><td><kbd>H</kbd></td><td>Re-centre the camera</td></tr>
+            <tr><td><kbd>Page Up</kbd> / <kbd>Page Down</kbd></td><td>Floor up / down</td></tr>
+            <tr><td><kbd>Tab</kbd>, <kbd>Home</kbd> / <kbd>End</kbd></td><td>Cycle wall view, walls up / down</td></tr>
+            <tr><td><kbd>G</kbd> / <kbd>Shift</kbd>+<kbd>G</kbd></td><td>Show grid / half-size grid</td></tr>
+            <tr><td><kbd>Ctrl</kbd>+<kbd>Z</kbd></td><td>Undo</td></tr>
+            <tr><td><kbd>Esc</kbd></td><td>Put down whatever is in your hand</td></tr>
+          </table></div>
+        </div>
+        <div>
+          <h3>Building</h3>
+          <div class="table-scroll"><table class="spec">
+            <tr><th>Input</th><th>Does</th></tr>
+            <tr><td>Left-drag</td><td>Draw walls, floors, roads, fences, lots</td></tr>
+            <tr><td><kbd>Shift</kbd> + drag</td><td>Whole room outline (walls, fences)</td></tr>
+            <tr><td><kbd>Shift</kbd> + click</td><td>Fill a room or connected area</td></tr>
+            <tr><td>Right-drag or <kbd>Ctrl</kbd> + drag</td><td>Remove</td></tr>
+            <tr><td><kbd>Ctrl</kbd> + click (Paint)</td><td>Eyedropper</td></tr>
+            <tr><td><kbd>F</kbd></td><td>Flip a door's hinge, turn a roof ridge or the stairs</td></tr>
+            <tr><td><kbd>[</kbd> / <kbd>]</kbd></td><td>Elevator top stop</td></tr>
+          </table></div>
+          <h3>Furnishing</h3>
+          <div class="table-scroll"><table class="spec">
+            <tr><th>Input</th><th>Does</th></tr>
+            <tr><td>Click an icon</td><td>Put it in your hand</td></tr>
+            <tr><td>Press, drag, release</td><td>Place and turn</td></tr>
+            <tr><td><kbd>,</kbd> / <kbd>.</kbd> or <kbd>Ctrl</kbd> + wheel</td><td>Rotate</td></tr>
+            <tr><td><kbd>Shift</kbd></td><td>Keep it in your hand</td></tr>
+            <tr><td><kbd>Alt</kbd></td><td>Place freely, any angle</td></tr>
+            <tr><td><kbd>[</kbd> / <kbd>]</kbd></td><td>Change style</td></tr>
+            <tr><td><kbd>F</kbd></td><td>Fix a model's front</td></tr>
+            <tr><td><kbd>Del</kbd></td><td>Empty your hand, or delete a lifted piece</td></tr>
+            <tr><td><kbd>E</kbd> in game</td><td>Open, sit, switch on, flush, call the elevator</td></tr>
+          </table></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="admin">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">For admins</span>
+        <h2>Admin and server commands</h2>
+        <p>Most of these are also buttons in the build interface's top bar (Save, Limits, Settings).</p>
+      </div>
+      <div class="grid c2">
+        <div class="table-scroll"><table class="spec">
+          <tr><th>Saves</th><th></th></tr>
+          <tr><td><code>sthc_save</code> / <code>sthc_load</code></td><td>Save now / load the last save</td></tr>
+          <tr><td><code>sthc_autosave 0|1</code></td><td>Auto-save on or off</td></tr>
+          <tr><td><code>sthc_autoload 0|1</code></td><td>Load the save when the map starts</td></tr>
+          <tr><td><code>sthc_autosave_interval &lt;s&gt;</code></td><td>Seconds between saves (0 = only on shutdown)</td></tr>
+          <tr><td><code>sthc_remove_all confirm</code></td><td>Remove everything</td></tr>
+          <tr><td><code>sthc_lot_remove &lt;id&gt;</code>, <code>sthc_bulldoze &lt;id&gt;</code></td><td>Remove one lot</td></tr>
+          <tr><td><code>sthc_set_max_floors &lt;1-16&gt;</code></td><td>Max floors per building (default 8)</td></tr>
+        </table></div>
+        <div class="table-scroll"><table class="spec">
+          <tr><th>Multiplayer</th><th></th></tr>
+          <tr><td><code>sthc_unlock &lt;name&gt;</code> / <code>sthc_lock &lt;name&gt;</code></td><td>Lift or restore a player's limits</td></tr>
+          <tr><td><code>sthc_unlocked</code></td><td>List unlocked players</td></tr>
+          <tr><td><code>sthc_mp_limits 0|1</code></td><td>Limits off or on for everyone</td></tr>
+          <tr><td><code>sthc_mp_lots</code>, <code>sthc_mp_lot_size</code>, <code>sthc_mp_props</code>, <code>sthc_mp_floors</code></td><td>Change the default limits</td></tr>
+          <tr><th>Lights</th><th></th></tr>
+          <tr><td><code>sthc_lights_all 1|0</code></td><td>Every light and fan on or off</td></tr>
+          <tr><td><code>sthc_lamps_all 1|0</code></td><td>Every lamp, fireplace and candle</td></tr>
+          <tr><td><code>sthc_streetlamps_all 1|0</code></td><td>Every streetlamp</td></tr>
+        </table></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <div>
+        <div class="brandline">Steventechno's Towns &amp; Cities! <em>The Ultimate FlatMap Transformation Project!</em></div>
+        <div>A Sims-style building tool for Garry's Mod by Steventechno.</div>
+      </div>
+      <div>
+        <a href="build.html">Build</a> &middot; <a href="furnish.html">Furnish</a> &middot; <a href="cities.html">Streets &amp; Cities</a> &middot; <a href="together.html">Play together</a> &middot; <a href="start.html">Get started</a> &middot; <a href="manual.html">Manual</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

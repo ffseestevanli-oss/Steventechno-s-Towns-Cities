@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Play together | Steventechno's Towns & Cities!</title>
+  <meta name="description" content="Multiplayer build limits, live previews, bulldoze, auto-save, distance level of detail, build music and a customisable interface.">
+  <meta property="og:image" content="img/brand/towns_cities_banner.png">
+  <link rel="icon" href="img/brand/favicon-64.png">
+  <link rel="stylesheet" href="css/site.css">
+  <script src="js/site.js" defer></script>
+</head>
+<body>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img src="img/brand/favicon-64.png" alt="">Towns &amp; Cities!</a>
+      <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="build.html">Build</a>
+        <a href="furnish.html">Furnish</a>
+        <a href="cities.html">Streets &amp; Cities</a>
+        <a href="together.html" aria-current="page">Play together</a>
+        <a href="manual.html">Manual</a>
+        <a href="start.html">Get started</a>
+      </nav>
+    </div>
+  </header>
+  <div class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow">Servers, saves and comfort</span>
+      <h1>Build together, keep everything</h1>
+      <p>Made for servers as much as single player: fair limits for players, live previews of what everyone is building, auto-save so nothing is lost, and level of detail so a whole town keeps running smoothly.</p>
+    </div>
+  </div>
+  <nav class="subnav"><div class="wrap">
+    <a href="#multiplayer">Multiplayer limits</a>
+    <a href="#previews">Live previews</a>
+    <a href="#bulldoze">Bulldoze</a>
+    <a href="#saves">Auto-save</a>
+    <a href="#lod">Distance LoD</a>
+    <a href="#music">Build music</a>
+    <a href="#ui">Your interface</a>
+    <a href="#physics">Solid pieces</a>
+  </div></nav>
+
+  <section>
+    <div class="wrap">
+
+      <div class="feature" id="multiplayer">
+        <div class="text">
+          <span class="eyebrow">For servers</span>
+          <h2>Fair build limits</h2>
+          <p>Players who aren't admins get sensible limits out of the box, so one builder can't fill the whole map. Single player and admins never have limits.</p>
+          <div class="table-scroll"><table class="spec">
+            <tr><th>Limit</th><th>Default</th><th>Convar</th></tr>
+            <tr><td>Lots per player</td><td>2</td><td><code>sthc_mp_lots</code></td></tr>
+            <tr><td>Biggest lot</td><td>16 x 16</td><td><code>sthc_mp_lot_size</code></td></tr>
+            <tr><td>Props per player</td><td>64</td><td><code>sthc_mp_props</code></td></tr>
+            <tr><td>Floors per building</td><td>2</td><td><code>sthc_mp_floors</code></td></tr>
+            <tr><td>Limits on or off</td><td>On</td><td><code>sthc_mp_limits</code></td></tr>
+          </table></div>
+          <ul>
+            <li><b>Props</b> are Furnish things: furniture, lights, fans, kitchen and bathroom pieces and wall decor. Walls, floors, doors, windows, stairs, roofs, fences and roads don't count.</li>
+            <li>Players see what they've used on the <b>Props 12/64</b> button in the top bar.</li>
+            <li>Admins click the same button (it says <b>Limits</b> for them) to see every player's lots and props and <b>Unlock</b> anyone. Unlocks are saved and last across restarts.</li>
+          </ul>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="together-limits" data-what="The admin Limits panel: list of players with their lots and props, Unlock / Lock buttons."><figcaption>Admins unlock players from the Limits panel.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature flip" id="previews">
+        <div class="text">
+          <span class="eyebrow">See each other build</span>
+          <h2>Live previews</h2>
+          <p>While someone drags walls, floor tiles, a foundation or a lot, everyone else sees the same ghost in <b>blue</b> with the builder's name over it (orange for removals). It updates about ten times a second and disappears when they let go. Don't want to see them? <code>sthc_mp_previews 0</code> hides them.</p>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="together-previews" data-what="Two players building side by side: one player's blue wall ghost with their name floating over it."><figcaption>Another player's drag shows in blue with their name.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature" id="bulldoze">
+        <div class="text">
+          <span class="eyebrow">Top bar</span>
+          <h2>Bulldoze</h2>
+          <p>Click <b>Bulldoze</b>, then click a lot to remove it and everything built on it: house, furniture, fences and all. It asks first, and <kbd>Ctrl</kbd>+<kbd>Z</kbd> brings it all back. Players can only bulldoze their own lots, admins any.</p>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="together-bulldoze" data-what="Bulldoze mode over a house: the lot highlighted and the confirm prompt."><figcaption>One click clears a whole lot.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature flip" id="saves">
+        <div class="text">
+          <span class="eyebrow">Never lose a build</span>
+          <h2>Auto-save</h2>
+          <p>Lots, houses, furniture, roads, fences and street furniture save with the map. Admins get a <b>Save</b> button in the top bar with:</p>
+          <ul>
+            <li><b>Auto-save</b> on or off: saves every 5 minutes when something changed, and on shutdown or map change. The town loads again when the map starts.</li>
+            <li><b>Save now</b> and <b>Load last save</b>.</li>
+            <li><b>Remove all</b>, which asks first.</li>
+          </ul>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="together-save" data-what="The Save popover open in the top bar: Auto-save toggle, Save now, Load last save, Remove all."><figcaption>The admin Save menu.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature" id="lod">
+        <div class="text">
+          <span class="eyebrow">New</span>
+          <h2>Distance level of detail</h2>
+          <p>Big towns stay smooth. Each player's game decides, lot by lot, how much to draw based on how far away it is:</p>
+          <ul>
+            <li><b>Near:</b> everything.</li>
+            <li><b>Further:</b> furniture, wall decor and lamps are hidden.</li>
+            <li><b>Far:</b> the whole house becomes one simple, low-detail model in the right colours, with glass shown as dark blue-grey.</li>
+          </ul>
+          <p>Nothing changes on the server, so doors, curtains, seats and lights are exactly as you left them when you come back. Turn it off or tune the distances in <b>Settings &rarr; Performance</b>.</p>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="together-lod" data-what="A long street receding into the distance: nearby houses full detail, distant ones as simple proxies (still looking like houses)."><figcaption>Distant houses switch to a simple model.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature flip" id="music">
+        <div class="text">
+          <span class="eyebrow">Settings &rarr; Music</span>
+          <h2>Build music</h2>
+          <p>A shuffled playlist plays while Build or Furnish is open, and fades out when you close it. Open it again and the same song fades back in. Set the volume, skip to the next song or turn it off in Settings.</p>
+          <ul class="chips"><li>Brisk Swing Groove</li><li>Late Practice</li><li>Measured Focus</li><li>Swing Sophistication</li><li>Domestic Warmth</li><li>Warehouse Lift</li><li>Warehouse Rave</li></ul>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="together-settings" data-what="The Settings panel open: Music volume with Now playing, View options, Max floors, Performance."><figcaption>Music, view, building and performance settings.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature" id="ui">
+        <div class="text">
+          <span class="eyebrow">Make it yours</span>
+          <h2>An interface you can rearrange</h2>
+          <ul>
+            <li><b>Docked or floating:</b> press <b>Float</b> to split the interface into windows you can drag anywhere, and <b>Dock</b> to put it back.</li>
+            <li><b>Your tab order:</b> the pencil at the end of the tab strip lets you drag tabs into your own order or hide the ones you don't use.</li>
+            <li><b>Classic look:</b> switch to the Garry's Mod spawn menu style (or your skin mod) in Settings.</li>
+            <li><b>Grid:</b> show or hide it with <kbd>G</kbd>, and pick a half-size grid for Build and Furnish separately.</li>
+          </ul>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="together-floating" data-what="The floating layout: build UI split into separate draggable windows around the screen."><figcaption>The floating window layout.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature flip" id="physics">
+        <div class="text">
+          <span class="eyebrow">Under the hood</span>
+          <h2>Solid like a frozen prop</h2>
+          <p>Every built piece, from walls and floors to roofs, stairs, fences and roads, collides like a prop frozen with the physgun. Players, thrown props and vehicles all hit them properly, and nobody can knock your house over: physgun and gravity gun pickups are blocked, and anything another addon unfreezes freezes again within two seconds.</p>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="together-vehicles" data-what="A car (simfphys, LVS or Glide) driving down a Towns &amp; Cities road past houses."><figcaption>Drive any vehicle addon on your roads.</figcaption></figure>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <div>
+        <div class="brandline">Steventechno's Towns &amp; Cities! <em>The Ultimate FlatMap Transformation Project!</em></div>
+        <div>A Sims-style building tool for Garry's Mod by Steventechno.</div>
+      </div>
+      <div>
+        <a href="build.html">Build</a> &middot; <a href="furnish.html">Furnish</a> &middot; <a href="cities.html">Streets &amp; Cities</a> &middot; <a href="together.html">Play together</a> &middot; <a href="start.html">Get started</a> &middot; <a href="manual.html">Manual</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
