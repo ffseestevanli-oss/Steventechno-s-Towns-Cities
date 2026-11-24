@@ -4,18 +4,18 @@
 
 ## Screenshot placeholders
 
-Each placeholder in MANUAL.md is a blockquote line starting `> 📷 **Screenshot needed:**` with a file name under `screenshots/` and what the shot should show. Replace the line with `![caption](screenshots/<id>.png)` once the picture exists. IDs reuse the old website's names where one existed.
+Each placeholder in MANUAL.md is a blockquote line starting `> 📷 **Screenshot needed:**` with a file name under `screenshots/` and what the shot should show. Replace the line with `![caption](screenshots/<id>.png)` once the picture exists. IDs reuse the website's names where one exists, and the manual also looks in `img/shots/`, so a screenshot dropped in for the site fills the manual's slot of the same name too (slide shows included).
 
 - `screenshots/start-spawnmenu.png`. The spawn menu Tools tab with Construction → Steventechno's Towns & Cities selected.
 - `screenshots/start-first-house.png`. A finished first house: walls, windows, a gable roof and a painted outside.
 - `screenshots/ui-overview.png`. The Build interface with the tab strip, rail, corner block and top bar labelled.
 - `screenshots/ui-hand.png`. A sofa in the hand as a green ghost, with the cursor hint text.
-- `screenshots/ui-wallview.png`. The same house in Walls up, Cutaway and Walls down, side by side.
-- `screenshots/build-paint-column.png`. The Wall paint tab open, with Fill, Paint side and the texture picker.
-- `screenshots/build-lots.png`. A lot shown as a green grid with a foundation being dragged onto it.
+- `screenshots/build-wallview.png`. The same house in Walls up, Cutaway and Walls down.
+- `screenshots/build-split.png`. The Wall paint tab open, with Fill, Paint side and the texture picker.
+- `screenshots/build-lots.png`. A new lot being dragged out as a green grid.
 - `screenshots/build-walls.png`. A room being drawn with Shift+drag, the green ghost showing its size.
 - `screenshots/build-garage.png`. A 6-tile garage door half open, with the width slider in the Doors panel.
-- `screenshots/build-windows.png`. Windows at Low, Default and High, and a window turned 45° in the wall.
+- `screenshots/build-window-heights.png`. Windows at different heights, and a window turned 45° in the wall.
 - `screenshots/build-stairs.png`. Stairs placed between two floors with the blue arrival square, and an elevator shaft.
 - `screenshots/build-pools.png`. A backyard with a shallow pool, and a basement shown through the ground while the Basement tool is open.
 - `screenshots/build-roofs.png`. An L-shaped house with two overlapping gable roofs and a lean-to porch.

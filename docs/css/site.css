@@ -196,6 +196,14 @@ table.spec tr:last-child td { border-bottom: none; }
 /* a real screenshot shows whole, at its own shape (ultrawide shots aren't cropped) */
 .shot.loaded .frame { aspect-ratio: auto; }
 .shot.loaded .frame img { height: auto; }
+/* slide shows: frames stack and cross-fade; the first sets the height */
+.shot.slides .frame img { transition: opacity .6s ease; }
+.shot.slides .frame img:not(:first-child) { position: absolute; inset: 0; }
+.shot.slides .frame img:not(.on) { opacity: 0; }
+.shot .dots { position: absolute; left: 0; right: 0; bottom: 10px; display: flex; justify-content: center; gap: 8px; }
+.shot .dots button { width: 11px; height: 11px; padding: 0; border-radius: 50%; border: 2px solid #fff; background: rgba(0,0,0,.35); cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,.5); }
+.shot .dots button.on { background: #fff; }
+@media (prefers-reduced-motion: reduce) { .shot.slides .frame img { transition: none; } }
 .shot .ph {
   position: absolute; inset: 0;
   display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;

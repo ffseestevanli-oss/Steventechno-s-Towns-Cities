@@ -3,7 +3,9 @@
 Drop each screenshot into `img/shots/` with the file name below (`.jpg`, `.png` or `.webp`).
 The site picks it up automatically and the placeholder disappears. No HTML editing needed.
 
-Tip: 16:9 works best (1920x1080 or 1600x900). They're cropped to fill a 16:9 frame.
+Any shape works: a screenshot shows whole at its own shape (ultrawide is fine). Empty placeholders keep a 16:9 frame.
+
+**Slide shows:** add `ID-2.jpg`, `ID-3.jpg` and so on next to `ID.jpg` and the figure cycles through them, with dots to pick a frame.
 **77 screenshots in total.** The manual's own screenshots are listed in `manual/README.md`.
 
 
@@ -11,32 +13,32 @@ Tip: 16:9 works best (1920x1080 or 1600x900). They're cropped to fill a 16:9 fra
 
 | File name | What to capture |
 |---|---|
-| `home-hero.jpg` | The money shot: a finished street at golden hour. Houses with roofs and fences, a road with sidewalks and streetlamps, a tower in the background. |
-| `home-before.jpg` | gm_flatgrass (or any flat map), completely empty, from a high angle. |
-| `home-after.jpg` | The same spot and camera angle after building: a few houses, a road, fences and furniture visible through windows. |
-| `home-detail-cutaway.jpg` | Wall view in Cutaway: front walls lowered with trim caps, so you see into furnished rooms. |
-| `home-detail-hand.jpg` | Furnish hand holding a sofa: see-through ghost with the floor arrow, snapping flush to a wall. |
-| `home-detail-night.jpg` | Night scene: lit streetlamps, a lit living room with lamps on and a fireplace glowing. |
+| `home-hero.jpg` ✅ | The money shot: a finished street at golden hour. Houses with roofs and fences, a road with sidewalks and streetlamps, a tower in the background. |
+| `home-before.jpg` ✅ | gm_flatgrass (or any flat map), completely empty, from a high angle. |
+| `home-after.jpg` ✅ | The same spot and camera angle after building: a few houses, a road, fences and furniture visible through windows. |
+| `home-detail-cutaway.jpg` ✅ | Wall view in Cutaway: front walls lowered with trim caps, so you see into furnished rooms. |
+| `home-detail-hand.jpg` ✅ | Furnish hand holding a sofa: see-through ghost with the floor arrow, snapping flush to a wall. |
+| `home-detail-night.jpg` ✅ | Night scene: lit streetlamps, a lit living room with lamps on and a fireplace glowing. |
 
 ## Build (build.html), 26 shots
 
 | File name | What to capture |
 |---|---|
-| `build-lots.jpg` | Lots tool picked: the green lot grid over flatgrass, mid-drag on a new lot. |
-| `build-foundation.jpg` | A raised foundation (around 48 units) with brick-painted edges, porch steps at the front. |
-| `build-floors.jpg` | Shift-click room fill preview: a room outlined in walls showing the new floor texture before clicking. |
-| `build-levels.jpg` | A three-storey house viewed on floor 2: floor 3 and the roof hidden, floor 2 rooms visible. |
-| `build-walls.jpg` | Shift-dragging a room outline: the green wall ghost forming a rectangle on a foundation. |
-| `build-wallview.jpg` | The same house three times, or a GIF frame: walls up, cutaway and walls down. |
-| `build-split.jpg` | A house exterior using the split line: brick on the lower part of the wall, siding above. |
-| `build-diagonal.jpg` | A room with a diagonal wall corner (bay or angled entry), with two floor textures meeting along the diagonal. |
-| `build-halfwall.jpg` | A half-height wall dividing a kitchen from a living room, mid-drag adjusting its height. |
-| `build-doors-catalogue.jpg` | The Doors tab open with the door catalogue tiles visible. |
-| `build-garage.jpg` | A garage door half open, sections rolling up into the ceiling track. |
-| `build-windows.jpg` | A house front with several framed windows (Cottage, Double-hung, Picture) and curtains inside. |
-| `build-window-heights.jpg` | Placing a window: the outline partway up the wall between the height levels, plus a diamond window turned 45 degrees. |
-| `build-stairs.jpg` | Placing stairs: the green ghost climbing to floor 2, the blue landing square visible upstairs. |
-| `build-porch.jpg` | Porch steps on a tall foundation, treads and risers painted different colours. |
+| `build-lots.jpg` ✅ | Lots tool picked: the green lot grid over flatgrass, mid-drag on a new lot. |
+| `build-foundation.jpg` ✅ | A raised foundation (around 48 units) with brick-painted edges, porch steps at the front. |
+| `build-floors.jpg` ✅ | Shift-click room fill preview: a room outlined in walls showing the new floor texture before clicking. |
+| `build-levels.jpg` ✅ | A three-storey house viewed on floor 2: floor 3 and the roof hidden, floor 2 rooms visible. |
+| `build-walls.jpg` ✅ | Shift-dragging a room outline: the green wall ghost forming a rectangle on a foundation. |
+| `build-wallview.jpg` ✅ | The same house three times, or a GIF frame: walls up, cutaway and walls down. |
+| `build-split.jpg` ✅ | A house exterior using the split line: brick on the lower part of the wall, siding above. |
+| `build-diagonal.jpg` ✅ | A room with a diagonal wall corner (bay or angled entry), with two floor textures meeting along the diagonal. |
+| `build-halfwall.jpg` ✅ | A half-height wall dividing a kitchen from a living room, mid-drag adjusting its height. |
+| `build-doors-catalogue.jpg` ✅ | The Doors tab open with the door catalogue tiles visible. |
+| `build-garage.jpg` ✅ | A garage door half open, sections rolling up into the ceiling track. |
+| `build-windows.jpg` ✅ | A house front with several framed windows (Cottage, Double-hung, Picture) and curtains inside. |
+| `build-window-heights.jpg` ✅ | Placing a window: the outline partway up the wall between the height levels, plus a diamond window turned 45 degrees. |
+| `build-stairs.jpg` ✅ | Placing stairs: the green ghost climbing to floor 2, the blue landing square visible upstairs. |
+| `build-porch.jpg` ✅ | Porch steps on a tall foundation, treads and risers painted different colours. |
 | `build-elevator-lobby.jpg` | An elevator landing: brushed steel doors open, floor display above showing the car's floor. |
 | `build-elevator-panel.jpg` | Inside the car with the floor button panel open. |
 | `build-pools.jpg` | A backyard with a shallow blue-tiled pool and someone wading in it. |
