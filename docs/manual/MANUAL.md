@@ -1,6 +1,6 @@
 # Steventechno's Towns & Cities! Player Manual
 
-*The Ultimate FlatMap Transformation Project!*
+*The Spiritual Successor to Steventechno's House Packs, Buildings Packs, Furniture Packs AND Electronics Packs, All in one massive, yet compact add-on!*
 
 Towns & Cities is a Sims-style building tool for Garry's Mod. You draw lots, foundations, walls, floors and roofs on a grid with your mouse, put in doors, windows, stairs and working elevators, dig basements and shallow pools, lay roads with sidewalks, furnish every room and every shop, and save whole houses to place again anywhere. This manual covers everything a player needs, from the first house to server settings.
 
