@@ -91,7 +91,7 @@ The pipette next to the eraser copies something you've already placed. Turn it o
 
 ### Floors and wall view
 
-> 📷 **Screenshot needed:** `screenshots/ui-wallview.png`. The same house in Walls up, Cutaway and Walls down, side by side.
+> 📷 **Screenshot needed:** `screenshots/build-wallview.png`. The same house in Walls up, Cutaway and Walls down.
 
 - **Floors:** <kbd>Page Up</kbd> / <kbd>Page Down</kbd> or the floor arrows switch floors (1 to 8 by default, up to 16 if an admin raises it). Everything above the floor you're on is hidden, so you can always see in.
 - **Two floor counters on foundation lots:** when the camera is on a lot with a foundation, a second floor column appears. The right one counts floors on top of the foundation; the left one counts floors on the ground beside it, for driveways, sheds and garden walls. Click a column to make it active.
@@ -168,7 +168,7 @@ Everything in Build mode sits on a 64-unit grid (one tile). Each floor is 128 un
 
 ### PAINT column (Floor tiles and Wall paint)
 
-> 📷 **Screenshot needed:** `screenshots/build-paint-column.png`. The Wall paint tab open, with Fill, Paint side and the texture picker.
+> 📷 **Screenshot needed:** `screenshots/build-split.png`. The Wall paint tab open, with Fill, Paint side and the texture picker.
 
 The two dark-blue tabs at the front of the tab strip paint everything that isn't a roof or a road.
 
@@ -191,7 +191,7 @@ The Walls paint list also has fake-window **office facades** (Office Windows in 
 
 ### Flooring
 
-> 📷 **Screenshot needed:** `screenshots/build-lots.png`. A lot shown as a green grid with a foundation being dragged onto it.
+> 📷 **Screenshot needed:** `screenshots/build-lots.png`. A new lot being dragged out as a green grid.
 
 The Flooring tab has three tools on its rail. (Floor tiles are laid from the PAINT column.)
 
@@ -240,7 +240,7 @@ Doors and windows need a plain, full-height straight wall that's long enough. Th
 
 ### Windows
 
-> 📷 **Screenshot needed:** `screenshots/build-windows.png`. Windows at Low, Default and High, and a window turned 45° in the wall.
+> 📷 **Screenshot needed:** `screenshots/build-window-heights.png`. Windows at different heights, and a window turned 45° in the wall.
 
 Pick a window and click a wall.
 
