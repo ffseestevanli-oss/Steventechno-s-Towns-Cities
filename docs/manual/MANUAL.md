@@ -57,7 +57,7 @@ The **Build | Furnish** switch above the corner block does the same as the keys.
 
 ### Layout
 
-> 📷 **Screenshot needed:** `screenshots/ui-overview.png`. The Build interface with the tab strip, rail, corner block and top bar labelled.
+> 📷 **Screenshot needed:** `screenshots/ui-overview.png`. The Build interface with the tab strip, rail, corner block and top bar labeled.
 
 - **Tab strip** along the bottom. Each tab's options open above it. Tabs with several tools (Flooring, Walls, Stairs) show them as icons on the **rail** down the left of the panel; hover an icon for its name and hints.
 - **Corner block** on the left: the floor counter (arrows and pips), the camera button, wall view, the **eraser** and the **pipette**.
@@ -74,8 +74,8 @@ The **Build | Furnish** switch above the corner block does the same as the keys.
 
 Almost everything you place works like the hand in The Sims:
 
-1. Click a tile in the catalogue. That piece is now **in your hand** and follows the cursor as a ghost: **green** fits, **red** doesn't, and the text by the cursor says why.
-2. Click (or press, drag and release) to put it down. The hand empties afterwards. Hold <kbd>Shift</kbd> to keep it and place more.
+1. Click a tile in the catalog. That piece is now **in your hand** and follows the cursor as a ghost: **green** fits, **red** doesn't, and the text by the cursor says why.
+2. Click (or press, drag and release) to put it down. The hand empties afterward. Hold <kbd>Shift</kbd> to keep it and place more.
 3. With an **empty hand**, click a placed piece to lift it. The piece itself follows the cursor while you carry it. Put it down somewhere else, press <kbd>Del</kbd> to delete it, or right-click to put it back where it was.
 4. <kbd>Del</kbd> or <kbd>Esc</kbd> empties your hand.
 
@@ -87,7 +87,7 @@ The eraser in the corner block is one Remove tool for every tab. While it's on, 
 
 ### The pipette
 
-The pipette next to the eraser copies something you've already placed. Turn it on and click a piece in the world: a copy of it, in the same style, goes into your hand, and the interface opens the tab and category it comes from with its tile lit. It works on furniture, Home and Public Furnishings pieces, wall objects (curtains, flags and LED strips keep their colour and length), doors and windows. It turns itself off after one pick; right-click cancels.
+The pipette next to the eraser copies something you've already placed. Turn it on and click a piece in the world: a copy of it, in the same style, goes into your hand, and the interface opens the tab and category it comes from with its tile lit. It works on furniture, Home and Public Furnishings pieces, wall objects (curtains, flags and LED strips keep their color and length), doors and windows. It turns itself off after one pick; right-click cancels.
 
 ### Floors and wall view
 
@@ -108,7 +108,7 @@ The pipette next to the eraser copies something you've already placed. Turn it o
 | Right-drag | Pan (when the tab doesn't use right-click) |
 | Mouse wheel | Zoom |
 | <kbd>Q</kbd> / <kbd>E</kbd> | Rotate 45° |
-| <kbd>H</kbd> | Re-centre on your player |
+| <kbd>H</kbd> | Re-center on your player |
 | <kbd>Page Up</kbd> / <kbd>Page Down</kbd> | Floor up / down (the camera rises with it) |
 
 Edge scrolling and inverted orbit can be turned off in the tool's spawn menu panel (`sthc_cam_edgescroll`, `sthc_cam_invert`).
@@ -145,12 +145,12 @@ Edge scrolling and inverted orbit can be turned off in the tool's spawn menu pan
 
 | Input | Does |
 |---|---|
-| Click a catalogue tile | Put it in your hand |
+| Click a catalog tile | Put it in your hand |
 | Press, drag, release | Place and turn (90° steps) |
 | <kbd>,</kbd> / <kbd>.</kbd> or <kbd>Ctrl</kbd>+wheel | Rotate 90° (with <kbd>Alt</kbd>: 15°) |
 | <kbd>Alt</kbd> | Place freely: no grid, any angle |
 | <kbd>Shift</kbd> | Keep it in your hand |
-| <kbd>[</kbd> / <kbd>]</kbd> | Change style (colour) |
+| <kbd>[</kbd> / <kbd>]</kbd> | Change style (color) |
 | Mouse wheel (TV in hand) | Change the screen size, 1" a step (<kbd>Shift</kbd>: 5") |
 | <kbd>F</kbd> | Fix a model whose front is the wrong way |
 | <kbd>V</kbd> | Turn a flag horizontal / vertical |
@@ -183,7 +183,7 @@ Options on the panel:
 | **Paint side** (walls) | Clicked, Inside, Outside, Both |
 | **Surface** (floors) | Floor, Ceiling |
 
-Pick a texture from the picker (filter it with the type chips such as Carpet, Tile, Wood, and the colour dots), then click or drag. The floor list includes the roads' own surfaces (Road Asphalt, Fresh Asphalt, Sidewalk Concrete, Sidewalk Cobblestone, Dirt Road), so a forecourt, patio or parking lot meets the road beside it without a seam, and coloured concretes (Light Grey, Charcoal, Sand, Terracotta, Red, Sage, Slate Blue and Mocha) for patios and plazas. The rail has **Brush**, **Fill room** (<kbd>Shift</kbd>), **Eyedropper** (<kbd>Alt</kbd> or <kbd>Ctrl</kbd>) and **Empty hand** (<kbd>Del</kbd>).
+Pick a texture from the picker (filter it with the type chips such as Carpet, Tile, Wood, and the color dots), then click or drag. The floor list includes the roads' own surfaces (Road Asphalt, Fresh Asphalt, Sidewalk Concrete, Sidewalk Cobblestone, Dirt Road), so a forecourt, patio or parking lot meets the road beside it without a seam, and colored concretes (Light Gray, Charcoal, Sand, Terracotta, Red, Sage, Slate Blue and Mocha) for patios and plazas. The rail has **Brush**, **Fill room** (<kbd>Shift</kbd>), **Eyedropper** (<kbd>Alt</kbd> or <kbd>Ctrl</kbd>) and **Empty hand** (<kbd>Del</kbd>).
 
 **Split line** (Wall paint): paint an outside wall in two parts, for example brick below and siding above. Turn it on, drag on a wall to move the line, then click above or below it to paint that part. Right-click removes the line.
 
@@ -228,11 +228,11 @@ The Walls tab has **Walls** and **Fences**.
 
 Pick a door and click a wall. The ghost is green where it fits.
 
-- **Doors:** six-panel doors in grey, white and black, arched panel, double doors, glass sliding doors, wood, panel and glass doors in several wood finishes, French doors, Oak shaker, Craftsman, Navy front door, Red door with glass, Farmhouse plank, and Half-Life 2 style city and metal doors. **Archway** and **Wide archway** are open passages.
+- **Doors:** six-panel doors in gray, white and black, arched panel, double doors, glass sliding doors, wood, panel and glass doors in several wood finishes, French doors, Oak shaker, Craftsman, Navy front door, Red door with glass, Farmhouse plank, and Half-Life 2 style city and metal doors. **Archway** and **Wide archway** are open passages.
 - <kbd>F</kbd> flips which side a single door is hinged on.
-- **Glass sliding doors** (2 tiles) have a dark aluminium frame and real see-through glass; one panel slides past the other.
+- **Glass sliding doors** (2 tiles) have a dark aluminum frame and real see-through glass; one panel slides past the other.
 - In game, <kbd>E</kbd> opens a door away from you. Double doors open together and sliding doors slide.
-- **Garage door:** one catalogue tile for every width. Use the **Garage door width** slider or the mouse wheel while it's in your hand to pick **2 to 8 tiles** wide (4 is the default). In game, <kbd>E</kbd> rolls it up along the ceiling; press <kbd>E</kbd> on the lip left in the doorway to close it.
+- **Garage door:** one catalog tile for every width. Use the **Garage door width** slider or the mouse wheel while it's in your hand to pick **2 to 8 tiles** wide (4 is the default). In game, <kbd>E</kbd> rolls it up along the ceiling; press <kbd>E</kbd> on the lip left in the doorway to close it.
 - **Garage door button:** in Furnish → Home Furnishings → Lighting. It snaps onto a wall like a light switch, and <kbd>E</kbd> on it opens or shuts every garage door of its room.
 - With an empty hand, click a door to lift and move it.
 
@@ -256,7 +256,7 @@ Go to the floor the stairs start on and open **Stairs**.
 
 - Pick a style (Oak, Walnut, Carpet, Stone, Concrete) and point at the cell for the bottom step. The stairs climb one floor over 2 tiles; the blue square is where you arrive.
 - <kbd>,</kbd> / <kbd>.</kbd> or <kbd>F</kbd> turn them. Click to place.
-- They need floor under them, floor on the next storey to land on, and no wall in the way. The floor above opens up over them for headroom, and closes again if you remove them.
+- They need floor under them, floor on the next story to land on, and no wall in the way. The floor above opens up over them for headroom, and closes again if you remove them.
 - A wall running beside the stairs trims them to its face, so stairs in a one-tile hallway fit exactly between the walls. They re-fit whenever walls around them change.
 - **Porch steps:** point at the edge of a foundation and the steps snap to it, facing out. They always match the foundation height and update when it changes.
 - Paint treads, fronts and sides from the PAINT column.
@@ -277,13 +277,13 @@ The map's ground can't really be dug, so pools and basements are drawn into it. 
 **Pools**
 
 - Drag a rectangle on bare ground of your lot, from 2x2 up to 16x16 tiles. Not on a foundation or over a basement.
-- Pick a depth, **Wading** or **Shallow**, and a tile colour: white, blue, teal or stone.
+- Pick a depth, **Wading** or **Shallow**, and a tile color: white, blue, teal or stone.
 - Walk in and you wade: you're drawn lower in the water and your footsteps splash. There's no swimming.
 - Remove with the eraser or a right-drag over the pool.
 
 **Basement**
 
-- One basement per lot, one storey deep under floor 1. **Dig** drags out the room (at least 2x4 tiles); digging again replaces it.
+- One basement per lot, one story deep under floor 1. **Dig** drags out the room (at least 2x4 tiles); digging again replaces it.
 - **Stairs:** click where the top step goes, and turn them with the mouse wheel or <kbd>R</kbd>. They come up through floor 1, which opens over them.
 - **Fill in** closes the basement again (not while someone is down there).
 - While the Basement tool is open, the whole room shows through the ground. Down in it you walk, run and jump as usual, and other players see you there.
@@ -362,7 +362,7 @@ The addon's own pieces cover every room: a kitchen and bathroom that work, ceili
 
 - **Living room:** sofas, armchairs, tables, a fireplace, rugs, lamps, plants and decor, plus TVs on feet, on a pedestal or on the wall that you **resize with the mouse wheel** while they're in your hand, a retro CRT, an entertainment wall, a hi-fi stack, a turntable whose record spins, speakers, bookshelves (the glass-door bookcase opens), floating shelves, a lava lamp and an aquarium whose fish swim while its light is on.
 - **Bedroom:** twin, full, queen and king beds and bunk beds, each with three frame finishes and fourteen beddings; nightstands, a tall chest, a dresser whose drawers slide out, a wardrobe and armoire that open, a blanket chest, a vanity with a bulb-ringed mirror and its stool, a floor mirror, a bed bench, bedside and swing-arm lamps, an alarm clock that shows the real time, and small decor.
-- **LED strips** (Wall → LEDs): a coloured strip that glows on the wall and lights the room, or a **glow only** version that casts no light. Twelve colours plus **RGB cycle**, 1 to 4 tiles long, hung from floor height up to just under the ceiling for cove lighting. Low strips glow upward like baseboard lighting.
+- **LED strips** (Wall → LEDs): a colored strip that glows on the wall and lights the room, or a **glow only** version that casts no light. Twelve colors plus **RGB cycle**, 1 to 4 tiles long, hung from floor height up to just under the ceiling for cove lighting. Low strips glow upward like baseboard lighting.
 
 ### Public Furnishings
 
@@ -397,15 +397,15 @@ In game, <kbd>E</kbd> brings most of them to life: seats, doors, lids, burners, 
 
 ### Styles
 
-> 📷 **Screenshot needed:** `screenshots/furnish-styles.png`. The style card for a sofa: turning preview and colour swatches.
+> 📷 **Screenshot needed:** `screenshots/furnish-styles.png`. The style card for a sofa: turning preview and color swatches.
 
-Items with a small swatch badge come in several styles (colours, fabrics, woods, finishes). Clicking one opens a card with a turning preview and a swatch per style; hover to preview, click to pick. <kbd>[</kbd> / <kbd>]</kbd> change the style of what's in your hand. Your last pick per model comes back next time.
+Items with a small swatch badge come in several styles (colors, fabrics, woods, finishes). Clicking one opens a card with a turning preview and a swatch per style; hover to preview, click to pick. <kbd>[</kbd> / <kbd>]</kbd> change the style of what's in your hand. Your last pick per model comes back next time.
 
 ### Wall objects
 
 > 📷 **Screenshot needed:** `screenshots/furnish-wall.png`. A painting being hung, with the Low / Middle / High / Top height snap.
 
-Pick a poster, painting, mirror, clock, sign, wall TV or LED strip, press on a wall and, while holding, move the mouse up or down to snap between **Low**, **Middle**, **High** and **Top**, and sideways to slide along the wall. Release to hang. <kbd>Alt</kbd> slides freely; <kbd>F</kbd> flips a model that hangs back to front. Flags turn horizontal or vertical with <kbd>V</kbd>. Picking an LED strip opens a card for its colour and length.
+Pick a poster, painting, mirror, clock, sign, wall TV or LED strip, press on a wall and, while holding, move the mouse up or down to snap between **Low**, **Middle**, **High** and **Top**, and sideways to slide along the wall. Release to hang. <kbd>Alt</kbd> slides freely; <kbd>F</kbd> flips a model that hangs back to front. Flags turn horizontal or vertical with <kbd>V</kbd>. Picking an LED strip opens a card for its color and length.
 
 ### Things that work
 
@@ -514,7 +514,7 @@ The server needs the same optional packs as the players. Add them with `resource
 | `sthc_tabs_reset` | Default tab order, nothing hidden |
 | `sthc_ui_skin derma` or `mockup` | Garry's Mod look or Towns & Cities look |
 | `sthc_ui_catlist grid` or `list` | Large or compact category list |
-| `sthc_ui_scroll vertical` or `horizontal` | Catalogue scroll direction |
+| `sthc_ui_scroll vertical` or `horizontal` | Catalog scroll direction |
 | `sthc_music_volume 0-1`, `sthc_music_next` | Music volume, skip song |
 | `sthc_furnish_rescan` | Rescan installed packs (after subscribing mid-game) |
 | `sthc_furnish_debug` | List the packs Furnish found and what went where |
@@ -581,6 +581,6 @@ Towns & Cities works on its own. It ships with its own walls, doors, windows, ro
 | **Steventechno's Furniture Pack Classic** (Workshop 106229933) | The classic furniture under the same header |
 | **Steventechno's Electronics Pack** | Its own header in Home Furnishings: TVs, computers, consoles, speakers. Wall TVs hang on walls |
 | **Steventechno's House Pack 3** | Paints, trims, brick, siding, floors and kitchen textures in the paint picker, some door styles and the Classic Steventechno lights |
-| **Steventechno's Buildings Pack 2.0** | **Required for Public Furnishings → Skyscrapers.** Also exterior brick, concrete (including the coloured concretes), marble, ceiling and shop textures, some door styles, and the Buildings Pack road and sidewalk styles |
+| **Steventechno's Buildings Pack 2.0** | **Required for Public Furnishings → Skyscrapers.** Also exterior brick, concrete (including the colored concretes), marble, ceiling and shop textures, some door styles, and the Buildings Pack road and sidewalk styles |
 
 Furnish and the paint picker only show what's installed, so nothing breaks without a pack; its items simply don't appear. On a server, install the packs on the server as well.

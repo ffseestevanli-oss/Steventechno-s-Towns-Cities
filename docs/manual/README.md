@@ -8,7 +8,7 @@ Each placeholder in MANUAL.md is a blockquote line starting `> 📷 **Screenshot
 
 - `screenshots/start-spawnmenu.png`. The spawn menu Tools tab with Construction → Steventechno's Towns & Cities selected.
 - `screenshots/start-first-house.png`. A finished first house: walls, windows, a gable roof and a painted outside.
-- `screenshots/ui-overview.png`. The Build interface with the tab strip, rail, corner block and top bar labelled.
+- `screenshots/ui-overview.png`. The Build interface with the tab strip, rail, corner block and top bar labeled.
 - `screenshots/ui-hand.png`. A sofa in the hand as a green ghost, with the cursor hint text.
 - `screenshots/build-wallview.png`. The same house in Walls up, Cutaway and Walls down.
 - `screenshots/build-split.png`. The Wall paint tab open, with Fill, Paint side and the texture picker.
@@ -23,7 +23,7 @@ Each placeholder in MANUAL.md is a blockquote line starting `> 📷 **Screenshot
 - `screenshots/build-lotlib.png`. The Lots tab with saved lot tiles and a saved house as a ghost being placed.
 - `screenshots/furnish-sources.png`. Home Furnishings open on Living Room, with the source headers in the grid and the room list on the left.
 - `screenshots/cities-clubs.png`. A club with the light-up dance floor, a runway with a dance pole, the bar and the DJ booth.
-- `screenshots/furnish-styles.png`. The style card for a sofa: turning preview and colour swatches.
+- `screenshots/furnish-styles.png`. The style card for a sofa: turning preview and color swatches.
 - `screenshots/furnish-wall.png`. A painting being hung, with the Low / Middle / High / Top height snap.
 - `screenshots/settings-panel.png`. The Settings window with Music, View, Building and Performance sections.
 - `screenshots/settings-lothiding.png`. A town seen from far away with Low Lot Rendering on: far houses as simple shapes.
@@ -36,7 +36,7 @@ Workshop links for this addon, the OST, the Electronics Pack, House Pack 3 and B
 
 ## Small mismatches found in the addon while writing (not changed)
 
-- The tool's spawn-menu panel says "Home re-centres"; the camera actually re-centres with H (Home steps the wall view). `lua/weapons/gmod_tool/stools/st_homeconstruct.lua`
+- The tool's spawn-menu panel says "Home re-centers"; the camera actually re-centers with H (Home steps the wall view). `lua/weapons/gmod_tool/stools/st_homeconstruct.lua`
 - The same panel says floors "1 to 8"; it's up to 16 when an admin raises Max floors.
 - docs/STAIRS.md and docs/FLOORS.md still describe Paint buttons on the Stairs tab and foundation Edges; painting moved to the PAINT column.
 - The addon's own README.md still lists shop and club pieces under Build → Cities and Furnish → Towns & Cities; they're in Furnish → Public Furnishings and Home Furnishings. docs/FURNISH.md still describes one Furnish tab per source; it's now Home Furnishings with source headers.
