@@ -65,15 +65,15 @@
         <div class="section-head">
           <span class="eyebrow">Step 2 (optional)</span>
           <h2>Steventechno's packs it works with</h2>
-          <p>Towns &amp; Cities works on its own: it ships with its own walls, doors, roofs, roads, textures and more than a hundred built-in furniture pieces. Subscribe to Steventechno's packs as well and even more appears. Furnish and the paint picker only show what you have installed.</p>
+          <p>Towns &amp; Cities works on its own: it ships with its own walls, doors, roofs, roads, textures and hundreds of built-in furniture, shop and club pieces. Subscribe to Steventechno's packs as well and even more appears. Furnish and the paint picker only show what you have installed.</p>
         </div>
         <div class="table-scroll"><table class="spec">
           <tr><th>Pack</th><th>What it adds</th></tr>
-          <tr><td><b>Steventechno's Furniture Pack Extended</b><br><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=455282752">Workshop 455282752</a></td><td>Every model appears in Furnish under the Steventechno's Furniture tab, with swatch cards for its styles. Posters and paintings go under Wall.</td></tr>
-          <tr><td><b>Steventechno's Furniture Pack Classic</b><br><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=106229933">Workshop 106229933</a></td><td>The classic furniture, in the same tab.</td></tr>
-          <tr><td><b>Steventechno's Electronics Pack</b><br><a href="#ELECTRONICS-PACK-LINK">Workshop link</a></td><td>Its own Furnish tab: TVs, computers, consoles and speakers with readable names. Wall TVs and speakers hang on walls.</td></tr>
+          <tr><td><b>Steventechno's Furniture Pack Extended</b><br><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=455282752">Workshop 455282752</a></td><td>Every model appears in Home Furnishings under the Steventechno's Furniture header, with swatch cards for its styles. Posters and paintings go under Wall.</td></tr>
+          <tr><td><b>Steventechno's Furniture Pack Classic</b><br><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=106229933">Workshop 106229933</a></td><td>The classic furniture, under the same header.</td></tr>
+          <tr><td><b>Steventechno's Electronics Pack</b><br><a href="#ELECTRONICS-PACK-LINK">Workshop link</a></td><td>Its own header in Home Furnishings: TVs, computers, consoles and speakers with readable names. Wall TVs and speakers hang on walls.</td></tr>
           <tr><td><b>Steventechno's House Pack 3</b><br><a href="#HOUSE-PACK-LINK">Workshop link</a></td><td>Paints, trims, brick, siding, floors and kitchen textures in the paint picker, the wood for the original doors, and the Classic Steventechno lights.</td></tr>
-          <tr><td><b>Steventechno's Buildings Pack 2.0</b><br><a href="#BUILDINGS-PACK-LINK">Workshop link</a></td><td>Exterior brick, concrete, marble, ceiling tiles and shop textures in the paint picker, plus the Buildings Pack road and sidewalk styles.</td></tr>
+          <tr><td><b>Steventechno's Buildings Pack 2.0</b><br><a href="#BUILDINGS-PACK-LINK">Workshop link</a></td><td>Exterior brick, concrete (including the coloured concretes), marble, ceiling tiles and shop textures in the paint picker, the Buildings Pack road and sidewalk styles, and the skyscrapers in Public Furnishings.</td></tr>
         </table></div>
         <p class="note"><b>Running a server?</b> The server needs the packs too. Add them with <code>resource.AddWorkshop</code> (for example <code>resource.AddWorkshop( "455282752" )</code> and <code>resource.AddWorkshop( "106229933" )</code>) so players download them when they join. After enabling a pack mid-game, run <code>sthc_furnish_rescan</code>.</p>
       </div>
@@ -85,7 +85,7 @@
     <div class="wrap">
       <div class="section-head">
         <span class="eyebrow">Step 3</span>
-        <h2>Your first house in eight steps</h2>
+        <h2>Your first house in nine steps</h2>
       </div>
       <ol class="steps">
         <li><b>Flooring &rarr; Lots</b>Drag a lot on open ground. 12x10 is a good first house.</li>
@@ -93,9 +93,10 @@
         <li><b>Walls</b>Hold <kbd>Shift</kbd> and drag to outline the house, then drag inner walls for rooms.</li>
         <li><b>Doors</b>Pick a front door and click an outside wall. Add inner doors.</li>
         <li><b>Windows</b>Click windows onto the walls, dragging up or down for the height.</li>
-        <li><b>Roofs</b>Pick Gable, a pitch and shingles, then drag over the whole house.</li>
-        <li><b>Paint</b>Paint the outside, then use Room fill on each room's walls and floor.</li>
-        <li><b>Furnish</b>Press <kbd>F2</kbd>, pick a sofa, press where it goes and drag to turn it.</li>
+        <li><b>Floor tiles</b>In the blue PAINT column, pick a floor and Shift-click each room.</li>
+        <li><b>Roofs</b>Go up one floor, pick Gable, a pitch and shingles, then drag over the whole house.</li>
+        <li><b>Wall paint</b>Paint the outside with Paint side: Outside, then each room with Inside and Whole room.</li>
+        <li><b>Furnish</b>Press <kbd>F2</kbd>, open Home Furnishings &rarr; Living Room, pick a sofa, press where it goes and drag to turn it.</li>
       </ol>
     </div>
   </section>
@@ -131,8 +132,10 @@
             <tr><td><kbd>Shift</kbd> + drag</td><td>Whole room outline (walls, fences)</td></tr>
             <tr><td><kbd>Shift</kbd> + click</td><td>Fill a room or connected area</td></tr>
             <tr><td>Right-drag or <kbd>Ctrl</kbd> + drag</td><td>Remove</td></tr>
-            <tr><td><kbd>Ctrl</kbd> + click (Paint)</td><td>Eyedropper</td></tr>
+            <tr><td><kbd>Alt</kbd> or <kbd>Ctrl</kbd> + click (painting)</td><td>Eyedropper</td></tr>
             <tr><td><kbd>F</kbd></td><td>Flip a door's hinge, turn a roof ridge or the stairs</td></tr>
+            <tr><td>Mouse wheel (window in hand)</td><td>Turn the window 15&deg;</td></tr>
+            <tr><td>Mouse wheel (garage door in hand)</td><td>Change its width, 2 to 8 tiles</td></tr>
             <tr><td><kbd>[</kbd> / <kbd>]</kbd></td><td>Elevator top stop</td></tr>
           </table></div>
           <h3>Furnishing</h3>
@@ -144,6 +147,7 @@
             <tr><td><kbd>Shift</kbd></td><td>Keep it in your hand</td></tr>
             <tr><td><kbd>Alt</kbd></td><td>Place freely, any angle</td></tr>
             <tr><td><kbd>[</kbd> / <kbd>]</kbd></td><td>Change style</td></tr>
+            <tr><td>Mouse wheel (TV in hand)</td><td>Change the screen size</td></tr>
             <tr><td><kbd>F</kbd></td><td>Fix a model's front</td></tr>
             <tr><td><kbd>Del</kbd></td><td>Empty your hand, or delete a lifted piece</td></tr>
             <tr><td><kbd>E</kbd> in game</td><td>Open, sit, switch on, flush, call the elevator</td></tr>

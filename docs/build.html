@@ -42,6 +42,7 @@
     <a href="#windows">Windows</a>
     <a href="#stairs">Stairs</a>
     <a href="#elevators">Elevators</a>
+    <a href="#pools">Pools &amp; basements</a>
     <a href="#roofs">Roofs</a>
     <a href="#fences">Fences</a>
     <a href="#paint">Paint</a>
@@ -55,10 +56,11 @@
         <div class="text">
           <span class="eyebrow">Flooring tab</span>
           <h2>Lots and foundations</h2>
-          <p>Every house starts with a lot. Drag on empty ground to draw one anywhere from 4x4 up to 64x64 tiles, then drag outward from inside it to grow it. While the Lots tool is picked, every lot shows as a bright green grid.</p>
+          <p>Every house starts with a lot. Drag on empty ground to draw one anywhere from 4x4 up to 64x64 tiles. While the Lots tool is picked, every lot shows as a bright green grid.</p>
           <ul>
+            <li><b>Resize by the edges:</b> grab any side or corner of a lot (it lights up yellow) and drag it in or out. Anything that would be cut off shows in red first.</li>
             <li><b>Foundation</b> is optional. Pick a height from 8 to 96 units and a texture, then drag it onto the lot. Change the height and the walls, stairs and everything else on the lot move with it.</li>
-            <li><b>Foundation edges</b> take wall and floor textures, so you can face a foundation in brick or stone.</li>
+            <li><b>Foundation edges</b> take any Wall paint texture, so you can face a foundation in brick or stone.</li>
             <li><b>Shift-click</b> fills the whole foundation with a texture in one go.</li>
           </ul>
         </div>
@@ -70,14 +72,16 @@
 
       <div class="feature flip" id="floors">
         <div class="text">
-          <span class="eyebrow">Flooring tab</span>
+          <span class="eyebrow">PAINT column &rarr; Floor tiles</span>
           <h2>Floor tiles, ceilings and up to 16 floors</h2>
-          <p>Pick a texture and drag to lay floor tiles. Drag over tiles you already have to retexture them, or Shift-click to fill a whole room up to its walls. Look up at an upper floor from below and the same drag paints the ceiling instead.</p>
+          <p>Pick a texture and drag: one stroke lays new tiles on empty cells and retextures the ones already there. Shift-click fills a whole room up to its walls. Look up at an upper floor from below and the same drag paints the ceiling instead.</p>
           <ul>
             <li>Each storey sits 128 units above the last. Switch floors with the arrows on the left or <kbd>Page Up</kbd> / <kbd>Page Down</kbd>.</li>
             <li>Buildings go up to <b>8 floors</b>, and admins can raise that to <b>16</b> in Settings.</li>
             <li>Everything above the floor you're on hides while you build, so you can always see what you're doing.</li>
             <li>Upper floors can overhang the floor below by up to 2 tiles, for balconies and bay rooms.</li>
+            <li><b>Road-matching floors:</b> the roads' own asphalt, sidewalk concrete, cobblestone and dirt, so a forecourt or parking lot meets the street without a seam.</li>
+            <li><b>Coloured concrete</b> in light grey, charcoal, sand, terracotta, red, sage, slate blue and mocha for patios and plazas.</li>
             <li>Tiles merge into as few pieces as possible: a 16x16 floor is a single prop.</li>
           </ul>
         </div>
@@ -97,6 +101,7 @@
             <li><b>Corners</b> close neatly on their own, or tick <b>Corner posts</b> for white posts at every corner.</li>
             <li><b>Pillars</b>: square or round, placed on any grid corner and painted like walls. A <b>Corner cap</b> gives a single corner the white post look.</li>
             <li><b>Split line</b>: put a paint line across your outdoor walls and paint above and below it separately, for brick below and siding above.</li>
+            <li><b>Move walls</b>: grab a wall and slide it sideways. Its doors, windows, paint and pictures go with it, and the walls joined to it stretch to keep the room closed.</li>
           </ul>
         </div>
         <div class="shots">
@@ -128,9 +133,9 @@
             <li><b>Wood, panel, glass, double and French doors</b> built from House Pack wood in walnut, cherry or smoked grey, with brass knobs and real see-through glass.</li>
             <li><b>Six-panel doors</b> in grey, white and black, an <b>arched panel door</b>, and <b>double six-panel doors</b>.</li>
             <li><b>Doors that ship with the addon:</b> Oak shaker, Craftsman, Navy front door, Red door with glass, Farmhouse plank, double versions, and city doors in green, brown and metal.</li>
-            <li><b>Glass sliding doors</b> that slide one panel over the other.</li>
+            <li><b>Glass sliding doors</b> with a dark aluminium frame and real see-through glass, one panel sliding past the other.</li>
             <li><b>Archways</b>, single and wide: open, framed passages.</li>
-            <li><b>Garage door</b>, four tiles wide: its sections roll up the track and back along the ceiling.</li>
+            <li><b>Garage doors</b> from 2 to 8 tiles wide (the mouse wheel sets the width): the sections roll up the track and back along the ceiling. Put a <b>garage door button</b> on the wall and <kbd>E</kbd> on it opens every garage door in the room.</li>
           </ul>
           <p>With an empty hand, click a door or window to pick it up and put it somewhere else. The wall closes up behind it.</p>
         </div>
@@ -143,8 +148,9 @@
       <div class="feature flip" id="windows">
         <div class="text">
           <span class="eyebrow">Windows tab</span>
-          <h2>Windows at three heights</h2>
-          <p>Press on a wall, keep holding and move the mouse up or down: the window snaps between <b>Low</b>, <b>Default</b> and <b>High</b>. Release to place it. A plain click puts it at Default.</p>
+          <h2>Windows at any of ten heights</h2>
+          <p>Press on a wall, keep holding and move the mouse up or down: the window snaps between <b>ten height levels</b>, from as low to as high as it fits. Release to place it. A plain click puts it at the default height.</p>
+          <p>With a window in your hand, the <b>mouse wheel turns it</b> in the wall, 15&deg; at a time, for diamond and angled windows.</p>
           <ul>
             <li><b>Classic set:</b> Window, Paned, Tall and High windows, Wide and Wide paned, and a 3-tile Picture window.</li>
             <li><b>Framed set</b> with casing and a sill: Divided, Cottage, Transom, Double-hung, Four-pane, Sidelight, Grid and Twin grid.</li>
@@ -153,7 +159,7 @@
         </div>
         <div class="shots">
           <figure class="shot" data-shot="build-windows" data-what="A house front with several framed windows (Cottage, Double-hung, Picture) and curtains inside."><figcaption>Framed windows with casings and sills.</figcaption></figure>
-          <figure class="shot" data-shot="build-window-heights" data-what="Placing a window: the outline snapping between the Low, Default and High positions."><figcaption>Drag up or down to pick the height.</figcaption></figure>
+          <figure class="shot" data-shot="build-window-heights" data-what="Placing a window: the outline partway up the wall between the height levels, plus a diamond window turned 45 degrees."><figcaption>Drag up or down to pick the height.</figcaption></figure>
         </div>
       </div>
 
@@ -163,7 +169,8 @@
           <h2>Stairs and porch steps</h2>
           <p>Pick Oak, Walnut, Carpet, Stone or Concrete, point at the cell for the bottom step and click. Stairs climb exactly one storey over two cells, at a step height players walk up normally. The floor above opens up over the stairwell by itself, and closes again with its old paint if you remove them.</p>
           <p><b>Porch steps</b> snap to the edge of a foundation and always match its height: one step for every 16 units. Raise the foundation and they rebuild themselves.</p>
-          <p>Use the Stairs <b>Paint</b> button to paint treads, risers and sides separately.</p>
+          <p>A wall beside the stairs trims them to its face, so stairs in a one-tile hallway fit exactly between the walls.</p>
+          <p>Paint treads and risers with <b>Floor tiles</b> and the sides with <b>Wall paint</b>.</p>
         </div>
         <div class="shots">
           <figure class="shot" data-shot="build-stairs" data-what="Placing stairs: the green ghost climbing to floor 2, the blue landing square visible upstairs."><figcaption>The ghost shows where you'll arrive upstairs.</figcaption></figure>
@@ -181,7 +188,7 @@
             <li><kbd>E</kbd> inside the car opens the floor buttons. Pick a floor and ride.</li>
             <li>Doors slide open at each stop and stay open while someone stands in the doorway.</li>
             <li>A display above every landing shows the car's floor and direction.</li>
-            <li>The car really moves, so players and props in it ride along.</li>
+            <li>Everyone in the car rides it like a vehicle: you stay where you stood, facing the same way, with no bobbing, and step off on your floor.</li>
           </ul>
         </div>
         <div class="shots">
@@ -190,7 +197,20 @@
         </div>
       </div>
 
-      <div class="feature" id="roofs">
+      <div class="feature" id="pools">
+        <div class="text">
+          <span class="eyebrow">Pools &amp; Basement tab</span>
+          <h2>Shallow pools and basements</h2>
+          <p><b>Pools:</b> drag a rectangle on bare ground of your lot, up to 16x16 tiles. Pick <b>Wading</b> or <b>Shallow</b> and white, blue, teal or stone tiles. Walk in and you wade, drawn lower in the water with splashing footsteps.</p>
+          <p><b>Basements:</b> dig one room a storey down under the house, then click in the stairs that come up through floor 1. While the tool is open the room shows through the ground. Down there you walk, run and jump as usual, and other players see you. <b>Fill in</b> closes it again.</p>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-shot="build-pools" data-what="A backyard with a shallow blue-tiled pool and someone wading in it."><figcaption>A shallow pool in the back yard.</figcaption></figure>
+          <figure class="shot" data-shot="build-basement" data-what="The Basement tool open: the basement room and its stairs visible through the ground under a house."><figcaption>The basement shows through the ground while you build it.</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="feature flip" id="roofs">
         <div class="text">
           <span class="eyebrow">Roofs tab</span>
           <h2>Roofs in five shapes</h2>
@@ -211,7 +231,7 @@
         </div>
       </div>
 
-      <div class="feature flip" id="fences">
+      <div class="feature" id="fences">
         <div class="text">
           <span class="eyebrow">Walls tab &rarr; Fences</span>
           <h2>Fences and gates, anywhere</h2>
@@ -236,11 +256,11 @@
         </div>
       </div>
 
-      <div class="feature" id="paint">
+      <div class="feature flip" id="paint">
         <div class="text">
-          <span class="eyebrow">Paint brush</span>
+          <span class="eyebrow">PAINT column</span>
           <h2>Paint everything</h2>
-          <p>Floors, walls, roofs, stairs and roads all have a <b>Paint</b> button. Click to paint the tile or wall section under the brush, or use <b>Room fill</b> to paint every wall facing a room at once. <kbd>Ctrl</kbd>-click is an <b>eyedropper</b> that picks up any texture you point at.</p>
+          <p>Two blue tabs at the front of the tab strip, <b>Floor tiles</b> and <b>Wall paint</b>, paint everything that isn't a roof or a road. Pick how much to cover (one tile, a dragged area, the whole room or the whole floor) and which side of a wall (the one you click, inside, outside or both). <kbd>Alt</kbd> or <kbd>Ctrl</kbd>-click is an <b>eyedropper</b> that picks up any texture you point at. Roofs and roads keep their own Paint buttons.</p>
           <ul>
             <li>The addon's own paints, wallpapers, siding, brick, stucco, wood, tile, carpet, stone and shingles.</li>
             <li><b>More than 220 textures from Steventechno's House Pack 3 and Buildings Pack 2.0</b> show up in the picker when those packs are installed, sorted into groups.</li>
@@ -254,12 +274,15 @@
         </div>
       </div>
 
-      <div class="feature flip" id="tools">
+      <div class="feature" id="tools">
         <div class="text">
           <span class="eyebrow">Everywhere</span>
           <h2>Handy tools</h2>
           <ul>
             <li><b>Eraser</b>: one Remove tool for every tab. Turn it on and a click or drag removes whatever that tab would add.</li>
+            <li><b>Pipette</b>: click any furniture, door, window or wall object you already placed and a copy, in the same style, lands in your hand with its tab opened.</li>
+            <li><b>Cursor icons</b>: a sledgehammer, hand, paint brush or eyedropper next to the pointer shows what a click will do.</li>
+            <li><b>Interface sounds</b> for placing, removing, picking up, turning, undo and switching floors, and a different one when something can't go there.</li>
             <li><b>Undo</b>: <kbd>Ctrl</kbd>+<kbd>Z</kbd> undoes every drag, paint, placement and removal.</li>
             <li><b>Half-size grid</b>: <kbd>Shift</kbd>+<kbd>G</kbd> switches to a 32-unit snap grid for finer placement.</li>
             <li><b>Camera</b>: WASD or the screen edges slide, middle-drag orbits, right-drag pans, the wheel zooms, <kbd>Q</kbd> / <kbd>E</kbd> rotate 45&deg; and <kbd>H</kbd> re-centres.</li>
