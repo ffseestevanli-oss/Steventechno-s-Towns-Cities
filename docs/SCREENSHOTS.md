@@ -27,18 +27,18 @@ Any shape works: a screenshot shows whole at its own shape (ultrawide is fine). 
 | `build-lots.jpg` ✅ | Lots tool picked: the green lot grid over flatgrass, mid-drag on a new lot. |
 | `build-foundation.jpg` ✅ | A raised foundation (around 48 units) with brick-painted edges, porch steps at the front. |
 | `build-floors.jpg` ✅ | Shift-click room fill preview: a room outlined in walls showing the new floor texture before clicking. |
-| `build-levels.jpg` ✅ | A three-storey house viewed on floor 2: floor 3 and the roof hidden, floor 2 rooms visible. |
+| `build-levels.jpg` ✅ | A three-story house viewed on floor 2: floor 3 and the roof hidden, floor 2 rooms visible. |
 | `build-walls.jpg` ✅ | Shift-dragging a room outline: the green wall ghost forming a rectangle on a foundation. |
 | `build-wallview.jpg` ✅ | The same house three times, or a GIF frame: walls up, cutaway and walls down. |
 | `build-split.jpg` ✅ | A house exterior using the split line: brick on the lower part of the wall, siding above. |
 | `build-diagonal.jpg` ✅ | A room with a diagonal wall corner (bay or angled entry), with two floor textures meeting along the diagonal. |
 | `build-halfwall.jpg` ✅ | A half-height wall dividing a kitchen from a living room, mid-drag adjusting its height. |
-| `build-doors-catalogue.jpg` ✅ | The Doors tab open with the door catalogue tiles visible. |
+| `build-doors-catalogue.jpg` ✅ | The Doors tab open with the door catalog tiles visible. |
 | `build-garage.jpg` ✅ | A garage door half open, sections rolling up into the ceiling track. |
 | `build-windows.jpg` ✅ | A house front with several framed windows (Cottage, Double-hung, Picture) and curtains inside. |
 | `build-window-heights.jpg` ✅ | Placing a window: the outline partway up the wall between the height levels, plus a diamond window turned 45 degrees. |
 | `build-stairs.jpg` ✅ | Placing stairs: the green ghost climbing to floor 2, the blue landing square visible upstairs. |
-| `build-porch.jpg` ✅ | Porch steps on a tall foundation, treads and risers painted different colours. |
+| `build-porch.jpg` ✅ | Porch steps on a tall foundation, treads and risers painted different colors. |
 | `build-elevator-lobby.jpg` | An elevator landing: brushed steel doors open, floor display above showing the car's floor. |
 | `build-elevator-panel.jpg` | Inside the car with the floor button panel open. |
 | `build-pools.jpg` | A backyard with a shallow blue-tiled pool and someone wading in it. |
@@ -47,7 +47,7 @@ Any shape works: a screenshot shows whole at its own shape (ultrawide is fine). 
 | `build-roofs-half.jpg` | A house with a lean-to porch roof against its front wall. |
 | `build-fences.jpg` | A front yard with a white picket fence and an open gate, privacy fence along the back. |
 | `build-fences-balcony.jpg` | Iron railings on an upper-floor balcony or roof deck. |
-| `build-paint-picker.jpg` | The texture picker open with group filters and a swatch card showing colour versions. |
+| `build-paint-picker.jpg` | The texture picker open with group filters and a swatch card showing color versions. |
 | `build-paint-room.jpg` | A room interior where one wall is being painted with wallpaper using Room fill. |
 | `build-ui.jpg` | The whole build UI: corner block with floors and wall view on the left, tab strip at the bottom, top bar buttons. |
 
@@ -59,14 +59,14 @@ Any shape works: a screenshot shows whole at its own shape (ultrawide is fine). 
 | `furnish-surfaces.jpg` | A TV being set on a TV stand, with a lamp and photo frame already on a side table. |
 | `furnish-chairs.jpg` | Dining chairs snapped around a dining table, a player sitting on one. |
 | `furnish-tabs.jpg` | Home Furnishings open on Living Room: the room list on the left, item icons grouped under source headers. |
-| `furnish-swatch.jpg` | The swatch card open over the catalogue: turning sofa preview on the left, colour swatches on the right. |
+| `furnish-swatch.jpg` | The swatch card open over the catalog: turning sofa preview on the left, color swatches on the right. |
 | `furnish-kitchen.jpg` | An L-shaped kitchen with wall cabinets, stove, fridge and an island with stools. |
 | `furnish-kitchen-styles.jpg` | Two or three kitchens side by side in different styles (e.g. Navy / marble, Walnut / white quartz). |
 | `furnish-bathroom.jpg` | A finished bathroom: tub in an alcove, vanity with mirror cabinet above, toilet and towel rail. |
 | `furnish-shower.jpg` | The shower stall running with its glass door open. |
 | `furnish-lighting.jpg` | A dim room lit by a pendant over a table and wall sconces washing the walls. |
 | `furnish-fan.jpg` | A ceiling fan with light, spinning, room lit. |
-| `furnish-living.jpg` | A cosy living room: corner sofa, coffee table on a rug, TV stand with a TV, lit fireplace, bookshelf. |
+| `furnish-living.jpg` | A cozy living room: corner sofa, coffee table on a rug, TV stand with a TV, lit fireplace, bookshelf. |
 | `furnish-dining.jpg` | A dining table with eight chairs, a vase of flowers and candles lit on top. |
 | `furnish-bedroom.jpg` | A furnished bedroom: queen bed with nightstands and lit bedside lamps, a dresser with a drawer pulled out, the vanity with its mirror bulbs on. |
 | `furnish-decor.jpg` | Close-up of a bookshelf and console table dressed with plants, vases, books, a globe and a mantel clock. |
@@ -83,7 +83,7 @@ Any shape works: a screenshot shows whole at its own shape (ultrawide is fine). 
 |---|---|
 | `cities-roads.jpg` | Aerial view of a small road network: a crossroads, a T junction, a bend and a dead end. |
 | `cities-roads-drag.jpg` | Mid-drag on a new road crossing an existing one, preview showing the crossroads it will make. |
-| `cities-road-styles.jpg` | All seven road styles laid side by side (parallel straights), labelled if possible. |
+| `cities-road-styles.jpg` | All seven road styles laid side by side (parallel straights), labeled if possible. |
 | `cities-sidewalks.jpg` | A house with a drawn front walk running from the road sidewalk across the grass strip to its porch steps. |
 | `cities-driveway.jpg` | A driveway ramp from a raised lot down to the road, car parked on it, garage door behind. |
 | `cities-country.jpg` | A dirt road without sidewalks meeting a town road, showing the S-curve where the sidewalk ends. |
