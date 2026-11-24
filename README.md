@@ -1,5 +1,7 @@
 # Steventechno's Towns & Cities!
 
+*The Spiritual Successor to Steventechno's House Packs, Buildings Packs, Furniture Packs AND Electronics Packs, All in one massive, yet compact add-on!*
+
 A new age of building in Garry's Mod is here!
 
 **🌐 Website: [ffseestevanli-oss.github.io/Steventechno-s-Towns-Cities](https://ffseestevanli-oss.github.io/Steventechno-s-Towns-Cities/)** · **📖 [Player manual](https://ffseestevanli-oss.github.io/Steventechno-s-Towns-Cities/manual.html)**
