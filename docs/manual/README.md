@@ -1,6 +1,6 @@
 # Player manual
 
-`MANUAL.md` is the full player manual for Steventechno's Towns & Cities, checked against build 258 (lua, README.md and docs/ in st_homeconstruct/). One file, eleven numbered sections, so it can be split per page if the site wants that.
+`MANUAL.md` is the full player manual for Steventechno's Towns & Cities, checked against build 324 (lua, README.md and docs/ in st_homeconstruct/, plus the To The Urbs! 003 README). One file, twelve numbered sections, so it can be split per page if the site wants that.
 
 ## Screenshot placeholders
 
@@ -25,19 +25,26 @@ Each placeholder in MANUAL.md is a blockquote line starting `> 📷 **Screenshot
 - `screenshots/cities-clubs.png`. A club with the light-up dance floor, a runway with a dance pole, the bar and the DJ booth.
 - `screenshots/furnish-styles.png`. The style card for a sofa: turning preview and color swatches.
 - `screenshots/furnish-wall.png`. A painting being hung, with the Low / Middle / High / Top height snap.
-- `screenshots/settings-panel.png`. The Settings window with Music, View, Building and Performance sections.
-- `screenshots/settings-lothiding.png`. A town seen from far away with Low Lot Rendering on: far houses as simple shapes.
+- `screenshots/settings-panel.png`. The Settings window on the Performance page, with the section list on the left.
+- `screenshots/settings-lothiding.png`. A town seen from far away with Lot Hiding on Low Detail: far houses as simple shapes.
 - `screenshots/mp-limits.png`. The admin Limits window listing players with Unlock / Lock buttons.
 - `screenshots/mp-preview.png`. Another player's wall drag shown in blue with their name over it.
+- `screenshots/urbs-bus.png`. A To The Urbs! bus pulled up at a bus shelter with its doors open, and a traffic light on the corner of a crossroads.
 
 ## Links still to fill in
 
 Workshop links for this addon, the OST, the Electronics Pack, House Pack 3 and Buildings Pack 2.0 are named but not linked (their ids aren't in the project). Furniture Pack Extended (455282752) and Classic (106229933) are known.
 
-## Small mismatches found in the addon while writing (not changed)
+## Small mismatches found in the addon while writing (not changed; noted at build 258, not all re-checked at 324)
 
 - The tool's spawn-menu panel says "Home re-centers"; the camera actually re-centers with H (Home steps the wall view). `lua/weapons/gmod_tool/stools/st_homeconstruct.lua`
 - The same panel says floors "1 to 8"; it's up to 16 when an admin raises Max floors.
 - docs/STAIRS.md and docs/FLOORS.md still describe Paint buttons on the Stairs tab and foundation Edges; painting moved to the PAINT column.
 - The addon's own README.md still lists shop and club pieces under Build → Cities and Furnish → Towns & Cities; they're in Furnish → Public Furnishings and Home Furnishings. docs/FURNISH.md still describes one Furnish tab per source; it's now Home Furnishings with source headers.
 - docs/WALLS.md still describes three window heights (Low, Default, High); windows have 10 height levels.
+
+## Build 324 update
+
+Added: the Active Lot and the redesigned Performance page, lot preview style, Move lot, lot categories and stock lots, diagonal wall changes, walls cut under roofs and walls at B1, roof joining, ridge heights and Half Gable, the Ceilings tool, Settings → Keybinds, the L / Shift+L / O / hotbar keys, Shift+wheel resizing, the warning banner, half-grid furniture snapping, hand cursors, the light switch color and intensity menu, door sounds, window widths and outside decorations, the dining room set, flags, diagonal fences, new fence styles and wide gates, the backsplash, 32x32 pools, Wiremod, interior shading, radial menus, Decent Vehicle support and a To The Urbs! section (buses, bus stops, traffic lights, skyscrapers off lots).
+
+Still out of date in the addon's own docs (not changed): docs/ROOFS.md still says Lean-to and doesn't describe joining, ridge heights or the Ceilings tool; docs/BASEMENTS.md still says a turned saved lot drops its basement (fixed, see docs/LOTS.md).
